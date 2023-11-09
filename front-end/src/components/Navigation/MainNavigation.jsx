@@ -14,5 +14,3 @@ const MainNavigation = () => {
 }
 
 export default MainNavigation
-
-// 1st-sept 51:53:00 tak hua he library ka puchh rahe he wha tak;
