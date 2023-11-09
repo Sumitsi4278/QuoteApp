@@ -5,7 +5,6 @@ import { useNavigate, useParams } from 'react-router-dom'
 const EditQuote = () => {
   const navigate = useNavigate();
   const params = useParams();
-  // const [quote, setQuote] = useState({});
   const [author, setAuthor] = useState({});
   const [text, setText] = useState({});
   const inputAuthorRef = useRef();
@@ -47,5 +46,3 @@ const EditQuote = () => {
 }
 
 export default EditQuote
-
-// editQuotes se baaki he 1:14:00 ke aspas se baaki he
