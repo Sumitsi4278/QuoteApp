@@ -1,0 +1,27 @@
+nav{
+    border-bottom: 2px solid black;
+    display: flex;
+    background-color: #ffafcc;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 65px;
+    font-size: 1.4rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 4px solid transparent;
+    transition: 0.9s ease;
+}
+
+nav ul a:hover{
+    border-bottom: 4px solid black;
+}
