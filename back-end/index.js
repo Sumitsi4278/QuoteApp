@@ -11,8 +11,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/Quoteapp-DB')
 app.use(express.json());
 
   const quoteRoutes = require('./APIs/quoteRoutes');
-//   app.use(express.json()); // JSON body parser
-//   app.use(express.urlencoded({ extended: true })); // URL-encoded body parser
 
 app.use(cors({origin: ['http://localhost:3000']}));
 app.use(quoteRoutes);
